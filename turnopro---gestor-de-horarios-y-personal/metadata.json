@@ -1,0 +1,6 @@
+{
+  "name": "TurnoPro - Gestor de Horarios y Personal",
+  "description": "Organizador integral de turnos rotativos para gestión local de personal, cuadrantes semanales, vacaciones, horas extras y copias de seguridad sin nube.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

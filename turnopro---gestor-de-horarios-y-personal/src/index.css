@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+@media print {
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+    font-size: 10pt;
+  }
+  aside,
+  header,
+  nav,
+  .print\:hidden {
+    display: none !important;
+  }
+  #printable-area {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    overflow: visible !important;
+  }
+}

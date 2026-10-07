@@ -1,0 +1,40 @@
+import { OvertimeRecord } from '../types';
+
+export const INITIAL_OVERTIME_RECORDS: OvertimeRecord[] = [
+  {
+    id: 'ot-1',
+    workerId: 'w-1',
+    workerName: 'Carlos Mendoza Ramos',
+    department: 'Producción',
+    date: '2026-10-06',
+    hours: 4,
+    reason: 'Pico imprevisto de producción en línea de envasado 1',
+    type: 'Abonable',
+    status: 'Aprobada',
+    registeredAt: '2026-10-06',
+  },
+  {
+    id: 'ot-2',
+    workerId: 'w-40',
+    workerName: 'Óscar Rivera Cruz',
+    department: 'Mantenimiento',
+    date: '2026-10-07',
+    hours: 3.5,
+    reason: 'Reparación de urgencia en motor de cinta transportadora',
+    type: 'Compensable',
+    status: 'Aprobada',
+    registeredAt: '2026-10-07',
+  },
+  {
+    id: 'ot-3',
+    workerId: 'w-27',
+    workerName: 'Marcos Gallego Nieto',
+    department: 'Operaciones',
+    date: '2026-10-08',
+    hours: 2,
+    reason: 'Recepción retrasada de camión de materias primas',
+    type: 'Abonable',
+    status: 'Aprobada',
+    registeredAt: '2026-10-08',
+  },
+];
